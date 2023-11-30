@@ -1,11 +1,153 @@
-<!DOCTYPE html>
+CTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Anushka Agrawal's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h>HElLLO THERE</h>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><img src="logo.png" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about-me" class="about-me">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="about-me-image.jpg" alt="Anushka Agrawal">
+                </div>
+                <div class="col-md-6">
+                    <h2>Hi. I'm Anushka Agrawal</h2>
+                    <p>Welcome to my portfolio. I am a passionate designer with a love for creating beautiful and impactful branding projects.</p>
+                    <a class="btn btn-primary" href="#projects">See my Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="row">
+                <!-- Project 1 -->
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="project1-image.jpg" alt="Project 1">
+                        <h3>Project 1</h3>
+                        <p>One-line description of Project 1</p>
+                        <p>Software used: Software 1, Software 2</p>
+                        <button class="close-button" onclick="closeProject(this)">Close</button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="project2-image.jpg" alt="Project 2">
+                        <h3>Project 2</h3>
+                        <p>One-line description of Project 2</p>
+                        <p>Software used: Software 3, Software 4</p>
+                        <button class="close-button" onclick="closeProject(this)">Close</button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-4">
+                    <div class="project-card">
+                        <img src="project3-image.jpg" alt="Project 3">
+                        <h3>Project 3</h3>
+                        <p>One-line description of Project 3</p>
+                        <p>Software used: Software 5, Software 6</p>
+                        <button class="close-button" onclick="closeProject(this)">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Send me a message</h2>
+            <form>
+                <textarea id="message" rows="4" placeholder="Type your message here"></textarea>
+                <button class="btn btn-primary">Send</button>
+            </form>
+        </div>
+        <div class="contact-info">
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@example.com</p>
+            <p>Address: 123 Main St, City, Country</p>
+            <p>Instagram: @anushka.agrawal</p>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="footer-logo.png" alt="Footer Logo">
+                </div>
+                <div class="col-md-6">
+                    <div class="newsletter">
+                        <h3>Subscribe to Newsletter</h3>
+                        <form>
+                            <input type="email" placeholder="Enter your email">
+                            <button class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="quick-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#about-me">About Me</a></li>
+                            <li><a href="#projects">Projects</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-media">
+                        <h3>Follow Me</h3>
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
