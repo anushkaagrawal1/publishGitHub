@@ -7,11 +7,21 @@
     text-align: center;
 }
 
-#ANUSHKA{
+.name h1{
     font-family: 'DIN Condensed';
     font-size: 180px;
     margin-top: 60px;
     margin-left: 100px;
+}
+
+.name img{
+    margin-left: 200px;
+    margin-top: -190px;
+}
+
+#DESCR img{
+    margin-left:-140px;
+    margin-top: 20px;
 }
 
 #AGRAWAL{
@@ -21,7 +31,46 @@
     margin-left: 100px;
 }
 
-.name img{
-    margin-left: 150px;
-    margin-top: -180px;
+#GRAPHIC{
+    font-size: 100px;
+    margin-top: -300px;
 }
+
+#DESIGNER{
+    font-size: 140px;
+    margin-top: -30px;
+}
+
+#ONELINE{
+    margin-left: 100px;
+    font-family: 'Helvetica Neue Bold';
+    font-size: 35px;
+}
+
+#LINE img{
+    margin-top: 30px;
+    margin-left:-60px;
+}
+
+#ME{
+    text-align: right;
+    font-family: 'Helvetica Neue';
+    margin-top: -200px;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+#worktitle{
+    font-family: 'DIN Condensed';
+    background-color: #116DFE;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+
+
+
+
