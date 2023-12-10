@@ -48,6 +48,7 @@
     font-family: 'DIN Condensed';
     margin-left: 100px;
     font-size: 100px;
+    margin-bottom: -30px;
 }
 
 .newtitle img{
@@ -74,10 +75,19 @@
     margin-left: -170px;
 }
 
+#workarrow{
+    margin-left: 20px;
+}
+
 #apple{
     width:750px;
     border-color: #00c87a;
     background-color: #00c87a;
+}
+
+#brewery{
+    border-color: #fb83b3;
+    background-color: #fb83b3;
 }
 
 #arrowgreen{
@@ -134,12 +144,100 @@
     font-size: 100px;
 }
 
+#metitle{
+    font-family: 'DIN Condensed';
+    background-color: #dd3333;
+    margin-top: 160px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+
+.me{
+    background-color: #dd3333;
+    padding-bottom: 50px;
+}
+
+#profile2img{
+    margin-left: 200px;
+}
+
+#MEBODY{
+    margin-right: 200px;
+    margin-left: 50px;
+    font-size: 24px;
+    font-family: 'Helvetica Neue Light';
+}
+
+#HELLO{
+    font-family: 'DIN Condensed';
+    font-size: 48px;
+    margin-left: 50px;
+    color:black;
+}
+
+#connecttitle{
+    font-family: 'DIN Condensed';
+    background-color: #1c1c1c;
+    margin-top: 160px;
+    padding-bottom: -30px;
+    padding-top: 40px;
+    font-size: 100px;
+    margin-left: -100px;
+    color: rgb(243, 238, 232);
+}
+
+.CONNECT{
+    background-color: #1c1c1c;
+    color: rgb(243, 238, 232);
+    padding-bottom: 100px;
+}
+
+#letstalk{
+    text-align: center;
+    font-family: 'Helvetica Neue Bold';
+    font-size: 80px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+
+.social h4{
+    font-family: 'Helvetica Neue Light';
+    font-size: 18px;
+    color: rgb(243, 238, 232);
+}
+
+.social img{
+    width:60px;
+    margin-bottom: 20px;
+}
+
+#instagram h4{
+    margin-left: 200px;
+}
+
+#instagram img{
+    margin-left: 250px;
+}
 
 
+#behance{
+    margin-left: 150px;
+}
 
+#phone{
+    margin-left: 20px;
+}
 
+#email{
+    margin-left:-80px;
+}
 
+#phone img{
+    margin-left: 30px;
+}
 
-
-
-
+#email img{
+    margin-left: 60px;
+}
