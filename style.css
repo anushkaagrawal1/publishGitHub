@@ -1,5 +1,5 @@
 .nav-item{
-    margin-left: 100px;
+    margin-left: 90px;
     margin-top: 16x;
     margin-bottom: -10px;
     font-family:  'DIN Condensed';
@@ -17,6 +17,71 @@
 .name img{
     margin-left: 200px;
     margin-top: -190px;
+}
+
+.projhead{
+    margin-left: 100px;
+    margin-top: 30px;
+    font-family: 'Helvetica Neue Bold';
+    padding:20px 40px 20px 40px;
+    font-size: 36px;
+    border-radius: 150px;
+    border: 2px solid #FFEE09; /* Border color and width */
+    width:650px;
+    background-color: #FFEE09;
+}
+
+.seemore{
+    margin-left: 130px;
+    font-family: 'Helvetica Neue Medium';
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.seemoreimg{
+    margin-top: 55px;
+    margin-left: -110px;
+}
+
+.newtitle{
+    margin-top: 80px;
+    font-family: 'DIN Condensed';
+    margin-left: 100px;
+    font-size: 100px;
+}
+
+.newtitle img{
+    margin-top: 60;
+    margin-left: -60px;
+}
+
+
+#illustrationarrow{
+    margin-left: 100px;
+}
+
+#gothic{
+    width:590px;
+    border-color: #ffad2a;
+    background-color: #ffad2a;
+}
+
+#arroworange{
+    margin-left: -150px;
+}
+
+#otherarrow{
+    margin-left: -170px;
+}
+
+#apple{
+    width:750px;
+    border-color: #00c87a;
+    background-color: #00c87a;
+}
+
+#arrowgreen{
+    margin-left: 10px;
 }
 
 #DESCR img{
@@ -63,11 +128,15 @@
 #worktitle{
     font-family: 'DIN Condensed';
     background-color: #116DFE;
-    margin-top: 30px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
+    margin-top: 160px;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-size: 100px;
 }
+
+
+
+
 
 
 
