@@ -242,8 +242,25 @@
     margin-left: 60px;
 }
 
-.body{
+.bodytext{
     font-family: 'Helvetica Neue Light';
     font-size: 20px;
     margin-left: 100px;
+    margin-right:100px;
+}
+
+.bodysec{
+    margin-left:-40px;
+}
+
+#applemisc{
+    width:600px;
+    border-color: #00c87a;
+    background-color: #00c87a;
+}
+
+#gcmisc{
+    width:650px;
+    border-color: #00c87a;
+    background-color: #00c87a;
 }
